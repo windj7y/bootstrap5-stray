@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>撿到寶 | 毛孩似顏繪</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 py-lg-5">
+    <div class="container">
+      <h1 class="mb-0">
+        <a class="navbar-brand d-block py-0 logo" href="index.html">
+          撿到寶
+        </a>
+      </h1>
+      <button class="navbar-toggler border-0 p-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto py-4 py-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">首頁</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">服務介紹</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="works.html">設計作品</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adoptions.html">領養專區</a>
+          </li>
+          <li class="nav-item mt-2 mt-lg-0 ms-lg-5">
+            <a class="btn btn-primary rounded-pill btn-special" href="purchase.html">毛孩似顏繪</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="text-center border-top border-3 border-primary border-top-lg-0 pt-5" style="background-image: url(./images/lightpaperfibers.png)">
+    <img src="./images/banner_service-sm.png" alt="banner" class="img-fluid banner-2">
+  </section>
+
+  <main style="background-image: url(./images/lightpaperfibers.png)">
+    <section class="container pt-5 pb-9 py-lg-10">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <form action="" class="px-4 px-lg-6 py-9 bg-white shadow-sm rounded border-top border-3 border-primary">
+            <h2 class="fs-4 fw-bold text-center mb-9">填寫訂購資訊</h2>
+            <div class="row g-4 gx-lg-5 mb-5 mb-lg-8">
+              <div class="col-lg-6">
+                <label for="firstName" class="form-label">名字</label>
+                <input type="text" class="form-control" id="firstName">
+              </div>
+              <div class="col-lg-6">
+                <label for="lastName" class="form-label">姓氏</label>
+                <input type="text" class="form-control" id="lastName">
+              </div>
+              <div class="col-12">
+                <label for="phone" class="form-label">手機號碼</label>
+                <input type="tel" class="form-control" id="phone">
+              </div>
+              <div class="col-12">
+                <label for="email" class="form-label">電子郵件</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="col-12">
+                <label for="city" class="form-label">收件地址</label>
+                <div class="row gx-5 gy-2">
+                  <div class="col-lg-6">
+                    <select class="form-select" id="city">
+                      <option selected disabled>請選擇城市</option>
+                      <option value="1">台北市</option>
+                      <option value="2">新北市</option>
+                      <option value="3">台中市</option>
+                      <option value="4">台南市</option>
+                      <option value="5">高雄市</option>
+                    </select>
+                  </div>
+                  <div class="col-lg-6">
+                    <select class="form-select" id="district">
+                      <option selected disabled>請選擇區域</option>
+                      <option value="1">板橋區</option>
+                      <option value="2">土城區</option>
+                      <option value="3">中和區</option>
+                      <option value="4">新莊區</option>
+                      <option value="5">樹林區</option>                      
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <input type="text" class="form-control" id="address" placeholder="請輸入詳細地址">
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <label for="style" class="form-label">選擇設計師風格</label>
+                <select class="form-select" id="style">
+                  <option value="1">Cute</option>
+                  <option value="2" selected>Meili</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label for="payment" class="form-label">付款方式</label>
+                <select class="form-select" id="payment">
+                  <option value="1">超商付款</option>
+                  <option value="2">線上刷卡</option>
+                  <option value="3">ATM轉帳</option>
+                  <option value="4" selected>貨到付款</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label class="form-label w-100">加購服務</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="service1" value="1">
+                  <label class="form-check-label" for="service1">送禮用包裝+100</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="service2" value="2">
+                  <label class="form-check-label" for="service2">無框畫+250</label>
+                </div>
+              </div>
+              <div class="col-12">
+                <label for="remark" class="form-label">備註說明</label>
+                <textarea class="form-control" id="remark" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="text-center">
+              <p class="fs-4 fw-bold mb-5">總金額 NT$ 300</p>
+              <button type="button" class="btn btn-primary rounded-pill fs-4">送出訂購資訊</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="border-top border-3 border-primary">
+    <div class="container py-9">
+      <ul class="list-unstyled row g-9 justify-content-center text-center text-lg-start mb-0">
+        <li class="col-lg-5">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-5">
+              <img src="./images/link01.png" class="img-fluid rounded-start" alt="link01">
+            </div>
+            <div class="col-lg-7">
+              <h3 class="fs-4">加入奴才團隊</h3>
+              <p class="text-nowrap">我也會畫畫，希望能盡一份心力！</p>
+              <a href="purchase.html" class="btn btn-outline-secondary fs-5 rounded-pill">聯絡我們</a>
+            </div>
+          </div>
+        </li>
+        <li class="col-lg-5">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-5">
+              <img src="./images/link02.png" class="img-fluid rounded-start" alt="link02">
+            </div>
+            <div class="col-lg-7">
+              <h3 class="fs-4">加入奴才團隊</h3>
+              <p class="text-nowrap">我也會畫畫，希望能盡一份心力！</p>
+              <a href="adoptions.html" class="btn btn-outline-secondary fs-5 rounded-pill">領養專區</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="bg-secondary py-5">
+    <p class="text-white text-center mb-0">Copyright © 2021 撿到寶.All rights reserved.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <script src="./js/all.js"></script>
+</body>
+</html>

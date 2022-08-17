@@ -1,0 +1,18 @@
+.banner {
+  background-image: url(../images/home_mobile.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 634px;
+
+  @include media-breakpoint-up(sm) {
+    background-image: url(../images/home.png);
+    height: 810px;
+  }
+}
+
+.banner-2 {
+  @include media-breakpoint-up(lg) {
+    content: url(../images/banner.png);
+  }
+}

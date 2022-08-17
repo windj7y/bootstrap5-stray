@@ -1,0 +1,14 @@
+.logo {
+  background: url(../images/logo.png);
+  background-size: cover;
+  width: 95px;
+  height: 32px;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  @include media-breakpoint-up(lg) {
+    width: 119px;
+    height: 40px;
+  }  
+}

@@ -1,0 +1,35 @@
+.dialog-bottom {
+  width: 164px;
+  height: 40px;
+  border: 2px solid $secondary;
+  border-radius: 8px;
+  position: fixed;
+  right: 0;
+  bottom: 170px;
+  background: $white;
+  z-index: 1;
+}
+
+.dialog-bottom::before {
+  content: '';
+  width: 0;
+  height: 0;
+  border: 12px solid transparent;
+  border-top-color: $secondary;
+  position: absolute;
+  left: 50%;
+  bottom: -24px;
+  transform: translateX(-50%);
+}
+
+.dialog-bottom::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border: 12px solid transparent;
+  border-top-color: $white;
+  position: absolute;
+  left: 50%;
+  bottom: -21px;
+  transform: translateX(-50%);
+}

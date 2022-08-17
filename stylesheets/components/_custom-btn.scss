@@ -1,0 +1,14 @@
+.btn-special {
+  &:hover {
+    background: $primary;
+    box-shadow: 0 3px $secondary;
+  }
+}
+
+.btn-outline-secondary {
+  &:hover {
+    background: $primary;
+    border-color: $primary;
+    color: $secondary;
+  }
+}

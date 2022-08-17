@@ -1,0 +1,14 @@
+.stroke-text {
+  font-family: kalam;
+  font-weight: bold;
+  color: $success;
+  font-size: 3rem;
+  white-space: nowrap;
+
+  &::before {
+    content: 'Full of fur. Full of love';
+    position: absolute;
+    -webkit-text-stroke: 10px $white;
+    z-index: -1;
+  }
+}
