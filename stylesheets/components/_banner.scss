@@ -12,7 +12,7 @@
 }
 
 .banner-2 {
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(md) {
     content: url(../images/banner.png);
   }
 }

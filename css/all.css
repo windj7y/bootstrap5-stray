@@ -13823,7 +13823,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .banner-2 {
     content: url(../images/banner.png);
   }
